@@ -55,7 +55,6 @@ class CommandLine:
         model_args.add_argument(
             "--model",
             default="small",
-            choices=MODEL_NAMES,
             help="name of the Whisper model to use",
         )
 
